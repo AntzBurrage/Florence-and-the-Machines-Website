@@ -1,0 +1,189 @@
+
+/* Typography */
+
+@font-face {
+	font-family: how_bold;
+	src: url(../fonts/How_Bold.otf);
+}
+
+@font-face {
+	font-family: how_regular;
+	src: url(../fonts/How_Regular.otf);
+}
+
+@font-face {
+	font-family: how_thin;
+	src: url(../fonts/How_Thin.otf);
+}
+
+.navbar-brand {
+	font-family:how_bold, sans-serif;
+	font-size: 24px;
+}
+
+.navbar-text, .pull-left{
+	font-family:how_bold, sans-serif;
+	/*font-size: 14px; */
+}
+
+.page-header{
+	padding-top: 10px;
+}
+
+b{
+	font-family:how_bold, sans-serif;
+	color: red;
+}
+
+h1,	h2, h3, h4, h5, h6 {
+	font-family:how_bold, sans-serif;
+	color: red;
+}
+
+
+/* Navigation */
+
+#Navigation{
+	padding: 10px;
+}
+
+a {
+	color: #F0BCD4;
+}
+
+.navbar-text > a {	
+	color: inherit;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+body{
+	padding-top: 90px;
+	cursor: default;
+}
+
+.col-md-3, .col-xs-6{
+	padding-bottom: 40px;
+}
+
+p{
+	font-size: 14px;
+}
+
+li{
+	font-size: 14px;
+}
+
+.home-thumb img:hover{
+	transform: scale(1.1);
+}
+
+.thumbnail img{	
+	transition: all 1s ease 0s;
+	width: 100%;
+}
+
+.thumbnail{
+	overflow: hidden;
+}
+
+
+/* Carousel */
+
+#sliderimg{
+	align-content: center;
+	transition: ease;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 10px;
+}
+
+.carousel-caption > h1{
+	color: #F0BCD4;
+}
+
+
+/* Content */
+
+#galcol {
+	font-family:how_bold, sans-serif;
+	font-size: 8px;
+}
+
+.bandcap{
+	font-family:how_bold, sans-serif;
+	color: red;
+}
+
+.thumbnail {
+	border: 0 none;
+	box-shadow: none;
+}
+
+
+/* Media Query 750px */
+
+
+@media screen and (max-width: 750px) {
+
+	/* Typography */
+
+	.page-header > h2 {
+		font-size: 24px;
+	}
+
+	.page-header > h3 {
+		font-size: 18px;
+	}
+
+	/* Navigation */
+
+	p{
+		font-size: 13px;
+	}
+
+	li{
+		font-size: 13px;
+	}
+
+
+	} /* End Media Query 750px */
+
+
+	/* Media Query 480px */
+
+	@media screen and (max-width: 481px){
+
+
+		/* Typography */
+
+		.navbar-brand {
+			font-family:how_bold, sans-serif;
+			font-size: 20px;
+		}
+
+		.page-header > h2, h3 {
+			font-size: 20px;
+		}
+
+
+		/* Carousel */
+
+		.carousel-caption > h1{
+			font-size: 18px;
+		}
+
+
+		/* Navigation */
+
+		p{
+			font-size: 11px;
+		}
+
+		li{
+			font-size: 11px;
+		}
+
+		} /* End Media Query 480px */
